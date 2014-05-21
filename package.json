@@ -1,0 +1,28 @@
+{
+  "name": "gulp-eol",
+  "description": "Replace or append EOL end of file",
+  "version": "0.0.1",
+  "homepage": "http://github.com/fritx/gulp-eol",
+  "repository": "git://github.com/fritx/gulp-eol.git",
+  "main": "./index.js",
+  "keywords": [
+    "gulp",
+    "plugin",
+    "eol",
+    "crlf",
+    "newline"
+  ],
+  "dependencies": {
+    "gulp-util": "~2.2",
+    "through2": "~0.4"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "gulp": "~3.6.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "licenses": "MIT"
+}
