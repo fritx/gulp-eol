@@ -21,8 +21,9 @@ module.exports = function (eol, append) {
         if (append && !(
           new RegExp(eol + '$').test(str))
           ) {
-          file.contents = new Buffer(str + eol);
+          str += eol;
         }
+        file.contents = new Buffer(str);
       } catch (e) {
         this.emit('error', e);
       }

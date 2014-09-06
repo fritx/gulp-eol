@@ -15,6 +15,14 @@ describe('gulp-eol', function () {
     input = ['wadup', 'doe\n', 'he\r\ny'];
     testFiles(eol('\n'), input, ['wadup\n', 'doe\n', 'he\ny\n']);
 
+    // bug found in https://github.com/fritx/gulp-eol/issues/1
+    // thanks @truetamtam
+    input = ['wadup\n'];
+    testFiles(eol('\r\n'), input, ['wadup\r\n']);
+
+    input = ['wadup\r\n'];
+    testFiles(eol('\n'), input, ['wadup\n']);
+
     function testFiles(stream, contentses, results) {
       it('should eol one or several files', function (done) {
         var count = 0;
