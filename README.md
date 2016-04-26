@@ -1,3 +1,5 @@
+<a href="https://www.npmjs.com/package/gulp-eol"><img width="134" height="20" src="https://img.shields.io/npm/dm/gulp-eol.svg"></a>&nbsp;&nbsp;<a href="https://github.com/fritx/gulp-eol"><img width="78" height="20" src="http://img.shields.io/badge/license-MIT-blue.svg"></a>
+
 ## Information
 
 <table>
