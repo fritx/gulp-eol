@@ -1,7 +1,7 @@
 'use strict';
 
 var through = require('through2');
-var PluginError = require('gulp-util').PluginError;
+var PluginError = require('plugin-error');
 var EOL = require('os').EOL;
 
 module.exports = function (eol, append) {

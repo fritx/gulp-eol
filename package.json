@@ -12,7 +12,7 @@
     "newline"
   ],
   "dependencies": {
-    "gulp-util": "~2.2",
+    "plugin-error": "~1.0",
     "through2": "~0.4"
   },
   "devDependencies": {
